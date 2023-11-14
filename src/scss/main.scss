@@ -1,0 +1,29 @@
+@use "./typography.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --color-primary:#F1F1F1;  
+    --color-secondary: #16B978; 
+    --color-rating: #FF9A15;
+    --color-gray200: #6D6D6D;
+    --color-gray100:#D1D1D1;
+    --color-gray50: #F6F6F6;
+    --color-white:#F1F1F1;
+
+    --color-green: #20E100;
+    --color-lightgreen: #75FF7A;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: typography.$font-main;
+    box-sizing: border-box;
+}

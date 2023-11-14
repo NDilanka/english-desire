@@ -1,0 +1,84 @@
+
+
+$font-main: poppins;
+
+//---------Titles---------
+@mixin title_1 {
+    font-family: $font-main;
+    font-size: 2.625rem;
+    font-weight: 600;
+}
+
+@mixin title_2 {
+    font-family: $font-main;
+    font-size: rem(28);
+    font-weight: 500;
+}
+
+@mixin title_3 {
+    font-family: $font-main;
+    font-size: rem(22);
+    font-weight: 400;
+}
+//-------------------------
+
+//---------Body-Large---------
+@mixin body_large--semibold {
+    font-family: $font-main;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@mixin body_large--regular {
+    font-family: $font-main;
+    font-size: rem(24);
+    font-weight: 400;
+}
+//-----------------------------
+
+//---------Body-Medium---------
+@mixin body_medium--regular {
+    font-family: $font-main;
+    font-size: rem(20);
+    font-weight: 400;
+}
+
+@mixin body_medium--medium {
+    font-family: $font-main;
+    font-size: rem(20);
+    font-weight: 500;
+}
+//-----------------------------
+
+//---------Body-base-----------
+@mixin body_base--semibold {
+    font-family: $font-main;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@mixin body_base--medium {
+    font-family: $font-main;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@mixin body_base--regular {
+    font-family: $font-main;
+    font-size: 1rem;
+    font-weight: 400;
+}
+//-----------------------------
+
+//---------Body-small----------
+@mixin body_small--regular {
+    font-family: $font-main;
+    font-size: rem(14);
+    font-weight: 400;
+}
+
+@mixin body_small--light {
+    font-family: $font-main;
+    font-size: rem(14);
+    font-weight: 300;
+}
