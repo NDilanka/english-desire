@@ -1,0 +1,35 @@
+@use "../../scss/typography.scss";
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+
+    .rate{
+        color: var(--color-rating);
+        @include typography.body_base--semibold
+    }
+}
+
+.starContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    
+  }
+  
+  .fullStar {
+    color: #FF9A15;
+    font-size: 3vh;
+  }
+  
+  .halfStar {
+    color: halfGold;
+  }
+  
+  .emptyStar {
+    color: #ccc; 
+    font-size: 3vh;
+
+  }
+  
