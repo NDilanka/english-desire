@@ -10,6 +10,7 @@
     --color-gray100:#D1D1D1;
     --color-gray50: #F6F6F6;
     --color-white:#F1F1F1;
+    --thumbnail: #121212;
 
     --color-green: #20E100;
     --color-lightgreen: #75FF7A;
@@ -26,4 +27,5 @@
 body{
     font-family: typography.$font-main;
     box-sizing: border-box;
+    display: inline;
 }

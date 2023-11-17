@@ -1,5 +1,7 @@
 ---
 import styles from "./MainVid.module.scss";
+import videoImg from '../../assets/video-img.png';
+import Rating from "react-rating";
 ---
 
 <div class={styles.container}>
@@ -8,12 +10,12 @@ import styles from "./MainVid.module.scss";
     </div>
     <div class={styles.bottom_container}>
         <div class={styles.thumbnail}>
-            
+            <img src={videoImg} alt="video thumbnail">
         </div>
         <div class={styles.full_description}>
             <div class={styles.top}>
                 <p class={styles.title}>Lorem ipsum dolor sit amet consectetur.</p>
-                <p class={styles.discription}>
+                <p class={styles.description}>
                     Lorem ipsum dolor sit amet consectetur. Nunc etiam sagittis pellentesque vitae. Viverra nisl dui lacus tortor mi facilisi erat mattis sodales. Tincidunt nisl volutpat imperdiet consectetur diam urna ac. Viverra ipsum ac malesuada viverra. Fermentum.
                 </p>
                 <div class={styles.rating}>

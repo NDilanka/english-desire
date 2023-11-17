@@ -1,17 +1,17 @@
 @use "../../scss/typography.scss";
 
 .container{
-    margin: auto;
     position: relative;
-    top: 25rem;
+    top: 12rem;
     display: flex;
-    width: 82rem;
+    margin: 0 6.25rem;
+    margin-bottom: 100rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.8125rem;
 
     p.main_title{
-        color: var(--color-secondary);
+        color: var(--thumbnail);
         @include typography.title_1;
     }
 }
@@ -23,7 +23,7 @@
 }
 
 .thumbnail{
-    background-color: var(--color-secondary);
+    background-color: var(--thumbnail);
     display: flex;
     width: 30rem;
     height: 17rem;
@@ -31,9 +31,15 @@
     padding: 5.9375rem 4.75rem;
     justify-content: center;
     align-items: center;
+
+    img{
+        width: 20.5rem;
+        height: 5.125rem;
+        flex-shrink: 0;
+    }
 }
 
-.full_discription{
+.full_description{
     display: flex;
     width: 41.875rem;
     height: 17rem;
@@ -44,7 +50,7 @@
 
 .title{
     align-self: stretch;
-        color: var(--color-secondary);
+        color: var(--thumbnail);
         @include typography.body_large--semibold;
 }
 
@@ -58,8 +64,8 @@
     align-self: stretch;
 }
 
-.discription{
-    color: var(--color-secondary);
+.description{
+    color: var(--thumbnail);
     @include typography.body_base--regular;
     width: 30.8125rem;
     flex: 1 0 0;
