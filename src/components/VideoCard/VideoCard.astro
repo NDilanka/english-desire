@@ -1,0 +1,22 @@
+---
+import Styles from './videoCard.module.scss'; 
+import ThmubnailImg from '../../assets/video-img.png';
+import Ratings from '../RatingComponent/Rating';
+---
+
+
+<section class={Styles.cardContainer}>
+    <div class={Styles.thumbnailContainer}>
+        <img src={ThmubnailImg} alt="video thumnail">
+    </div>
+    <div class={Styles.bottomContainer}>
+        <div class={Styles.titleContainer}>
+            <p class={Styles.title}>Lorem ipsum dolor sit amet consectetur.</p>
+            <p class={Styles.description}>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class={Styles.reviewContainer}>
+            <Ratings />
+            <p class={Styles.reviewCount}>(14,599)</p>
+        </div>
+    </div>
+</section>

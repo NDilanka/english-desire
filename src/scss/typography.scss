@@ -20,6 +20,13 @@ $font-main: poppins;
     font-size: rem(22);
     font-weight: 400;
 }
+
+@mixin title_4 {
+    font-family: $font-main;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
 //-------------------------
 
 //---------Body-Large---------
@@ -76,6 +83,13 @@ $font-main: poppins;
     font-size: rem(14);
     font-weight: 400;
 }
+
+@mixin body_small {
+    font-family: $font-main;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
 
 @mixin body_small--light {
     font-family: $font-main;
